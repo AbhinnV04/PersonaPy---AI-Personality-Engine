@@ -1,0 +1,18 @@
+Commands:
+
+> django-admin startproject web .
+This starts the entire project with a default website.
+
+> python manage.py runserver
+This starts the development server which runs the website.
+
+> python manage.py startapp polls
+This adds a new app to the project, similar to packages.
+
+> python manage.py makemigrations
+> python manage.py migrate
+This creates any necessary database tables according to the database settings.
+
+> python manage.py seed_products
+> python manage.py open_sqlite
+These are our custom defined management commands.
