@@ -1,0 +1,18 @@
+{
+    "angie_base": {
+        "name": "Angie",
+        "type": "RAG",
+        "dir": "/Angie",
+        "status": "available",
+        "cost": 2, 
+        "description": "The childhood friend."
+    },
+    "troll_man": {
+        "name": "troll_TBD",
+        "type": "DIRECT",
+        "dir": "/troll_man",
+        "status": "available",
+        "cost": 1,
+        "description": "A mischievous character that trolls."
+    }
+}
