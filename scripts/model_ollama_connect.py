@@ -1,2 +1,0 @@
-def GetResponseLocal():
-    raise NotImplementedError
