@@ -1,10 +1,11 @@
 # .todo file
 
 # To all collaborators:
-# When running or testing Python modules in this project, 
-# please use the following command format:
+1. When running or testing Python modules in this project (assets, utils, scripts):
 
-# python -m <path_to_module_file>
+`python -m <path_to_module_file>`
+eg. :
+    `python -m assets.serve_asset_details`
+    `python -m scripts.model_handler` 
 
-# This ensures that the module is executed correctly within the Python package structure.
 
