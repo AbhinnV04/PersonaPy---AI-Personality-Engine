@@ -1,0 +1,10 @@
+# .todo file
+
+# To all collaborators:
+# When running or testing Python modules in this project, 
+# please use the following command format:
+
+# python -m <path_to_module_file>
+
+# This ensures that the module is executed correctly within the Python package structure.
+
