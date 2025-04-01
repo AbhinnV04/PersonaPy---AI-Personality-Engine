@@ -1,3 +1,11 @@
+"""
+# src/utils/decorators.py
+========================
+This module contains decorators for various purposes in the package.
+- core_function: Marks a function as a core package endpoint.
+- internal_test: Marks a function as an internal test function.
+- endpoint: Marks a function as an endpoint for the package.
+"""
 import functools
 
 def core_function(func):
