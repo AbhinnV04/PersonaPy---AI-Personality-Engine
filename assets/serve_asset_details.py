@@ -14,7 +14,6 @@
 
 import json
 import os
-import sys
 
 from utils.decorators import core_function, internal_test
 
