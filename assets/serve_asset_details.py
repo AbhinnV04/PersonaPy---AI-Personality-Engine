@@ -19,7 +19,8 @@ from utils.decorators import core_function, internal_test
 
 @core_function
 def fetch_available_assets():
-    file_path = os.path.join(os.path.dirname(__file__), "available_assets.json")
+    """ Function to fetch the available assets from the available_assets.json file. """
+    file_path = os.path.join(os.path.dirname(__file__), "character_assets/available_assets.json")
     try:
         with open(file_path, "r") as file:
             data = json.load(file)
